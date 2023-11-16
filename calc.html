@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="calculatorcss.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<body>
+    <div id ='calculator'>
+        <input type="text" id="display" readonly>
+        <div>'
+            <button class="button" onclick = "currnetDisplay =''
+             document.querySelector('#display').value = currnetDisplay ; "
+             class="button" >C</button>
+            <button onclick = "currnetDisplay = currnetDisplay + '1'
+             document.querySelector('#display').value = currnetDisplay ; " class="button">1 </button>
+            <button onclick = "currnetDisplay =  currnetDisplay + '2'
+             document.querySelector('#display').value = currnetDisplay ; " class="button">2 </button>
+            <button onclick = "currnetDisplay = currnetDisplay + '3'
+             document.querySelector('#display').value = currnetDisplay ; " class="button">3 </button>
+            <br>
+            <button onclick = "currnetDisplay = currnetDisplay + '4'
+             document.querySelector('#display').value = currnetDisplay ; " class="button">4</button>
+            <button onclick = "currnetDisplay = currnetDisplay + '5'
+             document.querySelector('#display').value = currnetDisplay ; " class="button">5 </button>
+            <button onclick = "currnetDisplay = currnetDisplay + '6'
+             document.querySelector('#display').value = currnetDisplay ; " class="button">6 </button>
+            <button onclick = "currnetDisplay = currnetDisplay + '7'
+             document.querySelector('#display').value = currnetDisplay ; " class="button">7 </button>
+            <br>
+            <button onclick = "currnetDisplay = currnetDisplay + '8'
+             document.querySelector('#display').value = currnetDisplay ; " class="button">8 </button>
+            <button onclick = "currnetDisplay = currnetDisplay + '9'
+             document.querySelector('#display').value = currnetDisplay ; " class="button">9</button>
+             <button onclick = "currnetDisplay = currnetDisplay + '0'
+             document.querySelector('#display').value = currnetDisplay ; " class="button">0 </button>
+            <button onclick = "currnetDisplay = currnetDisplay + '+'
+             document.querySelector('#display').value = currnetDisplay ; " class="button">+ </button>
+            <button onclick = "currnetDisplay = eval(currnetDisplay)
+             document.querySelector('#display').value = currnetDisplay ; " class="button">= </button>
+            <br>
+            <button onclick = "currnetDisplay = currnetDisplay + '-'
+             document.querySelector('#display').value = currnetDisplay ; " class="button">- </button>
+            <button onclick = "currnetDisplay = currnetDisplay + '/'
+             document.querySelector('#display').value = currnetDisplay ; " class="button">/ </button>
+            <button onclick = "currnetDisplay = currnetDisplay + '*'
+            document.querySelector('#display').value = currnetDisplay ; " class="button">* </button>
+            <button onclick = "currnetDisplay = currnetDisplay + '.'
+            document.querySelector('#display').value = currnetDisplay ; " class="button">. </button>
+
+        </div>
+
+
+       
+    </div>
+    <script>
+        let currnetDisplay ='';
+        document.querySelector('#display').value =currnetDisplay;
+    </script>
+</body>
+</html>
+
