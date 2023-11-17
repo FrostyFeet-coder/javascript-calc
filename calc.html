@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculator</title>
 </head>
-<body>
+<body> 
+    <h1>CALCULATOR APP</h1>
     <div id ='calculator'>
         <input type="text" id="display" readonly>
         <div>'
-            <button class="button" onclick = "currnetDisplay =''
+            <button class="button red" onclick = "currnetDisplay =''
              document.querySelector('#display').value = currnetDisplay ; "
              class="button" >C</button>
             <button onclick = "currnetDisplay = currnetDisplay + '1'
@@ -34,20 +35,20 @@
             <button onclick = "currnetDisplay = currnetDisplay + '9'
              document.querySelector('#display').value = currnetDisplay ; " class="button">9</button>
              <button onclick = "currnetDisplay = currnetDisplay + '0'
-             document.querySelector('#display').value = currnetDisplay ; " class="button">0 </button>
-            <button onclick = "currnetDisplay = currnetDisplay + '+'
-             document.querySelector('#display').value = currnetDisplay ; " class="button">+ </button>
-            <button onclick = "currnetDisplay = eval(currnetDisplay)
-             document.querySelector('#display').value = currnetDisplay ; " class="button">= </button>
-            <br>
-            <button onclick = "currnetDisplay = currnetDisplay + '-'
-             document.querySelector('#display').value = currnetDisplay ; " class="button">- </button>
-            <button onclick = "currnetDisplay = currnetDisplay + '/'
-             document.querySelector('#display').value = currnetDisplay ; " class="button">/ </button>
-            <button onclick = "currnetDisplay = currnetDisplay + '*'
-            document.querySelector('#display').value = currnetDisplay ; " class="button">* </button>
+             document.querySelector('#display').value = currnetDisplay ; " class="button ">0 </button>
             <button onclick = "currnetDisplay = currnetDisplay + '.'
-            document.querySelector('#display').value = currnetDisplay ; " class="button">. </button>
+             document.querySelector('#display').value = currnetDisplay ; " class="button">.</button>
+            <button onclick = "currnetDisplay = eval(currnetDisplay)
+             document.querySelector('#display').value = currnetDisplay ; " class="button orange">= </button>
+            <br>
+            <button class="button blue" onclick = "currnetDisplay = currnetDisplay + '-'
+             document.querySelector('#display').value = currnetDisplay ; " class="button blue">- </button>
+            <button onclick = "currnetDisplay = currnetDisplay + '/'
+             document.querySelector('#display').value = currnetDisplay ; " class="button blue">/ </button>
+            <button onclick = "currnetDisplay = currnetDisplay + '*'
+            document.querySelector('#display').value = currnetDisplay ; " class="button blue">* </button>
+            <button onclick = "currnetDisplay = currnetDisplay + '+'
+            document.querySelector('#display').value = currnetDisplay ; " class="button blue ">+</button>
 
         </div>
 
